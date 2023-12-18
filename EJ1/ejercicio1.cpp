@@ -11,4 +11,5 @@ int main() {
     int numero_aleatorio = rand() % 100 + 1;
     printf("Número aleatorio: %d\n", numero_aleatorio);
 
-    
+    unsigned int nueva_semilla = 123;
+    srand(nueva_semilla);
