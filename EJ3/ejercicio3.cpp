@@ -14,5 +14,14 @@ if (archivo == NULL) {
 
 printf("Error: No se pudo abrir el archivo %s.\n", nombre_archivo);
 } else {
+    printf("El archivo se abrió correctamente.\n");
+
+    // No olvides cerrar el archivo después de usarlo
+    fclose(archivo);
+}
+
+    return 0;
+}
+
 
 
