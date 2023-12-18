@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+
 
 int main() {
 
@@ -13,3 +13,9 @@ int main() {
 
     unsigned int nueva_semilla = 123;
     srand(nueva_semilla);
+
+    int nuevo_numero_aleatorio = rand() % 100 + 1;
+    printf("Nuevo número aleatorio después de cambiar la semilla: %d\n", nuevo_numero_aleatorio);
+
+    return 0;
+}
